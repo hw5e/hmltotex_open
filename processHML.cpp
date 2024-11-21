@@ -217,7 +217,7 @@ void readXML(char *filename,wifstream &fp,vector<position> &hmlpos,wchar_t **buf
 void errorCert()
 {
 	printf("인증 실패. 아무 키를 누르면 종료됩니다...");
-	getch();
+	_getch();
 }
 
 

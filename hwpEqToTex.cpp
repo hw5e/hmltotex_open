@@ -302,7 +302,7 @@ bool bSearchTexFunc(wstring &str)
 	while(1)
 	{
 		mid = (upper+lower)/2;
-		int res = wcsicmp(texFuncSorted[mid].data(),str.data());
+		int res = _wcsicmp(texFuncSorted[mid].data(),str.data());
 
 		if (res == 0)
 			return true;

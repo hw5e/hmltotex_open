@@ -103,6 +103,6 @@ int main(int argc,char *argv[])
 	}
 #endif
 	printf("\n변환 완료. 아무 키나 누르면 종료됩니다.");
-	getch();
+	_getch();
 	return 0;
 }

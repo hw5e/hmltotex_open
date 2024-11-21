@@ -29,7 +29,7 @@ class compareStrIgnore
 public:
 	bool operator()(wstring &str1,wstring &str2)
 	{
-		return wcsicmp(str1.data(),str2.data())<0;
+		return _wcsicmp(str1.data(),str2.data())<0;
 	}
 };
 
